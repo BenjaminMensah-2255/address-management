@@ -1,0 +1,33 @@
+/* In a separate CSS file or a style block in your component */
+
+/* Base font size for the entire page (adjust as needed) */
+html {
+    font-size: 16px;
+  }
+  
+  /* Responsive font sizes using media queries */
+  /* Adjust the font sizes and media query breakpoints to suit your design */
+  @media (max-width: 768px) {
+    /* Font sizes for screens up to 768px wide */
+    .home-header h1 {
+      font-size: 1.5rem;
+    }
+    .home-header p,
+    .home-main h2,
+    .home-main p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    /* Font sizes for screens wider than 768px */
+    .home-header h1 {
+      font-size: 2rem;
+    }
+    .home-header p,
+    .home-main h2,
+    .home-main p {
+      font-size: 1.25rem;
+    }
+  }
+  
